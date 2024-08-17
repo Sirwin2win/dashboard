@@ -1,0 +1,122 @@
+.rightDiv{
+width: Fixed (852px)px;
+height: Fixed (1,117px)px;
+left: 876px;
+padding: 0px 124px 0px 124px;
+gap: 42px;
+opacity: 0px;
+background: #FFFFFF;
+
+}
+
+.leftDiv{
+    width: Fixed (876px)px;
+    height: Fixed (1,117px)px;
+    padding: 0px 124px 0px 124px;
+    gap: 36px;
+    opacity: 0px;
+    background: #FBF1E8;
+
+}
+
+.logoDiv{
+    width: Hug (200px)px;
+    height: Hug (53px)px;
+    gap: 12px;
+    opacity: 0px;
+    margin-top: 90px;
+
+}
+.welcomeMessage{
+    /* styleName: Subtitle/Bold/24px; */
+font-family: Sora;
+font-size: 30px;
+font-weight: 700;
+line-height: 32.64px;
+text-align: left;
+color: #1E1E1E;
+
+}
+.welcomeMessage2{
+    /* styleName: Subtitle/Bold/24px; */
+    width: 475px;
+    height: 31px;
+    gap: 0px;
+    opacity: 0px;
+    /* //styleName: Body/Regular/20px; */
+font-family: Sora;
+font-size: 15px;
+font-weight: 400;
+line-height: 31.2px;
+text-align: left;
+color: #4B4B4B;
+}
+
+.divBlock{
+    width: Fixed (475px)px;
+    height: Hug (424px)px;
+    gap: 36px;
+    opacity: 0px;
+    
+}
+
+/* hand-sewing/bro */
+.bro{
+    width: 382.25px;
+    height: 403.25px;
+}
+.leftDivContent{
+width: Fixed (468px)px;
+height: Hug (129px)px;
+gap: 24px;
+opacity: 0px;
+margin-top: 36px;
+}
+.leftDivText1{
+width: 468px;
+height: 49px;
+gap: 0px;
+opacity: 0px;
+font-family: Sora;
+font-size: 36px;
+font-weight: 700;
+line-height: 48.96px;
+text-align: center;
+color:#1E1E1E
+
+}
+.leftDivText2{
+width: 468px;
+height: 56px;
+gap: 0px;
+opacity: 0px;
+font-family: Sora;
+font-size: 18px;
+font-weight: 400;
+line-height: 28.08px;
+text-align: center;
+color: #4B4B4B   
+}
+.leftDivContainer{
+    margin: 274.37px 204px;
+}
+
+.msg{
+    /* styleName: Subtitle/Bold/24px; */
+font-family: Sora;
+font-size: 15px;
+font-weight: 700;
+line-height: 32.64px;
+text-align: left;
+color: #1E1E1E;
+}
+.formInput{
+    margin-bottom: 5px;
+}
+.signupImage{
+    margin-top: 5px;
+}
+
+
+
+

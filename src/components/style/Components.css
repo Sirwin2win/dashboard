@@ -1,0 +1,32 @@
+.formInput{
+    border: none; 
+    border-bottom: 2px solid hsl(29, 100%, 50%); 
+}
+.parent{
+    height: 80px;
+}
+.imgLeft{
+    width: 500px;
+}
+/* .img{
+    height: 400px;
+    width: 450px;
+} */
+
+@media only screen and (max-width: 600px) {
+    .main {
+      height: 50px;
+      width: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .img {
+      height: 300px;
+      column-span: none;
+    }
+  }
+  .asu{
+    width: 876px;
+    height: 600px;
+  }
