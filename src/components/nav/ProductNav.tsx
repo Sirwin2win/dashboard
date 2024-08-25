@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { Link, Outlet, useNavigate } from "react-router-dom"
 import "./Nav.css"
 // import AddProductButton from "../button/AddProductButton"
@@ -55,6 +55,21 @@ const ProductNav = () => {
   // State to manage the navbar's visibility
   const [nav, setNav] = useState(false)
 
+  // getting viewport dimenssions
+  const [width, setWidth] = useState(window.innerWidth)
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWidth(window.innerWidth)
+    }
+
+    window.addEventListener("resize", handleResize)
+
+    return () => {
+      window.removeEventListener("resize", handleResize)
+    }
+  }, [])
+
   // Toggle function to handle the navbar's display
   const handleNav = () => {
     setNav(!nav)
@@ -79,7 +94,14 @@ const ProductNav = () => {
           <b className="text-brightOrange as">AS |</b>
           <div className="mt-[-10px]">
             <b>Ankara Store</b>
-            <p className="mt-[-45px]">Allen Ikeja Branch</p>
+            <p className="mt-[-45px]">
+              Allen Ikeja{" "}
+              {width <= 640 ? (
+                <span className="invisible">Branch</span>
+              ) : (
+                <span>Branch</span>
+              )}
+            </p>
           </div>
           <i>
             <DownOutlined />
