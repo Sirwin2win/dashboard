@@ -27,11 +27,11 @@ const items: MenuItem[] = [
   },
   {
     key: "4",
-    label: <Link to={"billing"}>BILLING</Link>,
+    // label: <Link to={"billing"}>BILLING</Link>,
   },
   {
     key: "5",
-    label: <Link to={"notification"}>NOTIFICATIONS</Link>,
+    // label: <Link to={"notification"}>NOTIFICATIONS</Link>,
   },
 ]
 
@@ -52,16 +52,16 @@ const sett: TabsProps["items"] = [
     label: <p className="small ml-[-25px]">appearance</p>,
     children: <Appearance />,
   },
-  {
-    key: "4",
-    label: <p className="small ml-[-25px]">billing</p>,
-    children: <Billings />,
-  },
-  {
-    key: "5",
-    label: <p className="small ml-[-25px]">Notofications</p>,
-    children: <Notifictions />,
-  },
+  // {
+  //   key: "4",
+  //   label: <p className="small ml-[-25px]">billing</p>,
+  //   children: <Billings />,
+  // },
+  // {
+  //   key: "5",
+  //   label: <p className="small ml-[-25px]">Notofications</p>,
+  //   children: <Notifictions />,
+  // },
 ]
 
 const SettingsNav = () => {
